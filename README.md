@@ -34,7 +34,7 @@ A quick look on the word and character distributions show that there really isn'
 The locations tag is tricky to utilizie in analysis because some locations are very specific while others are broad. There is not a standardized list to choose from, users put in location themselves. Additionally, only 30% of the tweets had locations given.
 ![locations](https://user-images.githubusercontent.com/45593399/77225785-bed07e00-6b72-11ea-98d9-0621a3c9b0dc.PNG)
 
-When it comes to to the sentiment, there seems to be a correlation that disaster tweets have on average lower sentiment scores which intuitively makes sense. But there is a lot of spread, so we have to perform a statistical test to find out if this is significant. A one way ANOVA test gives a very low p-value which indicates a statistical significance that disaster tweets on average have lower sentiment score.
+When it comes to to the sentiment, there seems to be a correlation that disaster tweets have on average lower sentiment scores which intuitively makes sense. But there is a lot of spread, so we have to perform a statistical test to find out if this is significant. A one way ANOVA test gives a very low p-value which indicates a statistical significance that disaster tweets on average have lower sentiment score. the size of the bubbles indicate the frequency of tweets with the given word count.
 
 ![sentiment](https://user-images.githubusercontent.com/45593399/77189730-5208a580-6ad8-11ea-9df7-f4cfb5b57776.PNG)
 
